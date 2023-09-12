@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+.rounded-t-5 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media (min-width: 992px) {
+  .rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landingPage{
+  background-image: url('https://repository-images.githubusercontent.com/593550946/6b250d13-d7c9-4cc2-ad7c-4d5be14bf7c9');
+  /* background-image: url('http://localhost:3000/dw-hero-website-home_big.png'); */
+  height: 500px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: transparent;
 }
